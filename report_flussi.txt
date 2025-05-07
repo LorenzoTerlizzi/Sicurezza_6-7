@@ -1,0 +1,390 @@
+--- 1. Identificatori del Flusso ---
+
+Src IP: 4026 valori unici
+
+Src Port: 34524 valori unici
+
+Dst IP: 7553 valori unici
+
+Dst Port: 13346 valori unici
+
+Protocol: 3 valori unici
+
+Protocol unici: 6, 17, 0
+
+Timestamp: 34836 valori unici
+
+Flow Duration: 83563 valori unici
+
+--- 2. Conteggi di Pacchetti ---
+Total Fwd Packet:
+  - media: 139.58
+  - std:   2247.87
+  - min:   1.00
+  - max:   238161.00
+Total Bwd packets:
+  - media: 142.04
+  - std:   3230.45
+  - min:   0.00
+  - max:   470862.00
+
+--- 2. Lunghezza Totale Pacchetti ---
+Total Length of Fwd Packet:
+  - media: 100657.69
+  - std:   3071446.42
+  - min:   0.00
+  - max:   769307441.00
+Total Length of Bwd Packet:
+  - media: 119452.26
+  - std:   4313781.76
+  - min:   0.00
+  - max:   670428734.00
+
+--- 3. Lunghezza Pacchetti Fwd ---
+Fwd Packet Length Max:
+  - media: 208.38
+  - std:   625.56
+  - min:   0.00
+  - max:   64240.00
+Fwd Packet Length Min:
+  - media: 15.14
+  - std:   30.30
+  - min:   0.00
+  - max:   1350.00
+Fwd Packet Length Mean:
+  - media: 66.83
+  - std:   210.16
+  - min:   0.00
+  - max:   28502.37
+Fwd Packet Length Std:
+  - media: 63.77
+  - std:   165.21
+  - min:   0.00
+  - max:   15870.12
+
+--- 3. Lunghezza Pacchetti Bwd ---
+Bwd Packet Length Max:
+  - media: 236.92
+  - std:   762.99
+  - min:   0.00
+  - max:   48168.00
+Bwd Packet Length Min:
+  - media: 38.06
+  - std:   95.88
+  - min:   0.00
+  - max:   1350.00
+Bwd Packet Length Mean:
+  - media: 109.87
+  - std:   246.22
+  - min:   0.00
+  - max:   9901.91
+Bwd Packet Length Std:
+  - media: 69.14
+  - std:   194.16
+  - min:   0.00
+  - max:   11469.19
+
+--- 4. Banda e Frequenze ---
+Flow Bytes/s:
+  - media: inf
+  - std:   nan
+  - min:   0.00
+  - max:   inf
+Flow Packets/s:
+  - media: inf
+  - std:   nan
+  - min:   0.02
+  - max:   inf
+Fwd Packets/s:
+  - media: 6930.48
+  - std:   35175.26
+  - min:   0.00
+  - max:   2000000.00
+Bwd Packets/s:
+  - media: 5136.90
+  - std:   21971.67
+  - min:   0.00
+  - max:   1000000.00
+
+--- 5. IAT del Flusso ---
+Flow IAT Mean:
+  - media: 2456167.54
+  - std:   6860355.33
+  - min:   0.00
+  - max:   119985637.00
+Flow IAT Std:
+  - media: 3060499.33
+  - std:   7456716.58
+  - min:   0.00
+  - max:   84774619.75
+Flow IAT Max:
+  - media: 9519875.47
+  - std:   19179267.67
+  - min:   0.00
+  - max:   119999354.00
+Flow IAT Min:
+  - media: 850797.30
+  - std:   5458504.22
+  - min:   -2255.00
+  - max:   119985637.00
+
+--- 5. IAT Fwd ---
+Fwd IAT Total:
+  - media: 19642069.85
+  - std:   37586837.89
+  - min:   0.00
+  - max:   119999999.00
+Fwd IAT Mean:
+  - media: 3861086.37
+  - std:   10984847.69
+  - min:   0.00
+  - max:   119999708.00
+Fwd IAT Std:
+  - media: 2516377.51
+  - std:   6927519.57
+  - min:   0.00
+  - max:   84836837.37
+Fwd IAT Max:
+  - media: 8865326.34
+  - std:   18733143.51
+  - min:   0.00
+  - max:   119999708.00
+Fwd IAT Min:
+  - media: 2282175.47
+  - std:   10039802.39
+  - min:   -458.00
+  - max:   119999708.00
+
+--- 5. IAT Bwd ---
+Bwd IAT Total:
+  - media: 16571301.49
+  - std:   35823899.65
+  - min:   0.00
+  - max:   119999985.00
+Bwd IAT Mean:
+  - media: 2874581.79
+  - std:   9902221.72
+  - min:   0.00
+  - max:   119806500.00
+Bwd IAT Std:
+  - media: 2144727.46
+  - std:   6643814.49
+  - min:   0.00
+  - max:   84807193.33
+Bwd IAT Max:
+  - media: 7158945.96
+  - std:   17590765.03
+  - min:   0.00
+  - max:   119965714.00
+Bwd IAT Min:
+  - media: 1472530.31
+  - std:   8654712.31
+  - min:   -445.00
+  - max:   119806500.00
+
+--- 6. TCP Flags ---
+Fwd PSH Flags:
+  - media: 0.10
+  - std:   0.29
+  - min:   0.00
+  - max:   1.00
+Bwd PSH Flags:
+  - media: 0.00
+  - std:   0.00
+  - min:   0.00
+  - max:   0.00
+Fwd URG Flags:
+  - media: 0.00
+  - std:   0.00
+  - min:   0.00
+  - max:   0.00
+Bwd URG Flags:
+  - media: 0.00
+  - std:   0.00
+  - min:   0.00
+  - max:   0.00
+FIN Flag Count:
+  - media: 0.47
+  - std:   0.55
+  - min:   0.00
+  - max:   2.00
+SYN Flag Count:
+  - media: 0.48
+  - std:   0.86
+  - min:   0.00
+  - max:   7.00
+RST Flag Count:
+  - media: 0.04
+  - std:   0.33
+  - min:   0.00
+  - max:   71.00
+ACK Flag Count:
+  - media: 246.42
+  - std:   5049.21
+  - min:   0.00
+  - max:   709023.00
+URG Flag Count:
+  - media: 0.00
+  - std:   0.00
+  - min:   0.00
+  - max:   0.00
+CWE Flag Count:
+  - media: 0.00
+  - std:   0.00
+  - min:   0.00
+  - max:   0.00
+ECE Flag Count:
+  - media: 0.00
+  - std:   0.00
+  - min:   0.00
+  - max:   0.00
+
+--- 7. Lunghezza Header ---
+Fwd Header Length:
+  - media: 2680.57
+  - std:   44919.49
+  - min:   0.00
+  - max:   4768644.00
+Bwd Header Length:
+  - media: 2846.31
+  - std:   66098.63
+  - min:   0.00
+  - max:   9417240.00
+
+--- 8. Dimensione Pacchetti ---
+Packet Length Min:
+  - media: 13.98
+  - std:   23.38
+  - min:   0.00
+  - max:   1350.00
+Packet Length Max:
+  - media: 324.82
+  - std:   930.10
+  - min:   0.00
+  - max:   64240.00
+Packet Length Mean:
+  - media: 94.29
+  - std:   189.40
+  - min:   0.00
+  - max:   6647.07
+Packet Length Std:
+  - media: 109.16
+  - std:   207.54
+  - min:   0.00
+  - max:   12617.10
+Packet Length Variance:
+  - media: 54988.90
+  - std:   750499.47
+  - min:   0.00
+  - max:   159191098.66
+
+--- 9. Rapporti Direzionali e Medie ---
+Down/Up Ratio:
+  - media: 0.62
+  - std:   11.81
+  - min:   0.00
+  - max:   4266.00
+Average Packet Size:
+  - media: 107.93
+  - std:   195.66
+  - min:   0.00
+  - max:   6647.19
+Fwd Segment Size Avg:
+  - media: 66.83
+  - std:   210.16
+  - min:   0.00
+  - max:   28502.37
+Bwd Segment Size Avg:
+  - media: 109.87
+  - std:   246.22
+  - min:   0.00
+  - max:   9901.91
+
+--- 10. Traffico Bulk ---
+Fwd Avg Bytes/Bulk: Non presente nel dataset.
+Bwd Avg Bytes/Bulk: Non presente nel dataset.
+Fwd Avg Packets/Bulk: Non presente nel dataset.
+Bwd Avg Packets/Bulk: Non presente nel dataset.
+Fwd Avg Bulk Rate: Non presente nel dataset.
+Bwd Avg Bulk Rate: Non presente nel dataset.
+
+--- 11. Sottoflussi ---
+Subflow Fwd Packets:
+  - media: 0.27
+  - std:   0.44
+  - min:   0.00
+  - max:   1.00
+Subflow Bwd Packets:
+  - media: 0.00
+  - std:   0.00
+  - min:   0.00
+  - max:   0.00
+Subflow Fwd Bytes:
+  - media: 40.95
+  - std:   131.44
+  - min:   0.00
+  - max:   6644.00
+Subflow Bwd Bytes:
+  - media: 57.29
+  - std:   138.82
+  - min:   0.00
+  - max:   4872.00
+
+--- 12. Finestra TCP e Pacchetti Dati ---
+Init_Win_bytes_forward: Non presente nel dataset.
+Init_Win_bytes_backward: Non presente nel dataset.
+act_data_pkt_fwd: Non presente nel dataset.
+min_seg_size_forward: Non presente nel dataset.
+
+--- 13. Tempi Attività ---
+Active Mean:
+  - media: 0.00
+  - std:   0.00
+  - min:   0.00
+  - max:   0.00
+Active Std:
+  - media: 0.00
+  - std:   0.00
+  - min:   0.00
+  - max:   0.00
+Active Max:
+  - media: 0.00
+  - std:   0.00
+  - min:   0.00
+  - max:   0.00
+Active Min:
+  - media: 0.00
+  - std:   0.00
+  - min:   0.00
+  - max:   0.00
+
+--- 13. Tempi Inattivi ---
+Idle Mean:
+  - media: 713423093330336.88
+  - std:   705245606527854.38
+  - min:   0.00
+  - max:   1456416798260755.00
+Idle Std:
+  - media: 58736750093216.39
+  - std:   200695978583616.72
+  - min:   0.00
+  - max:   1029835600802160.00
+Idle Max:
+  - media: 743561947455085.00
+  - std:   724879415827652.38
+  - min:   0.00
+  - max:   1456416800693713.00
+Idle Min:
+  - media: 602317523907022.25
+  - std:   714547829786329.88
+  - min:   0.00
+  - max:   1456416797545352.00
+
+--- 14. Etichettatura ---
+
+Label
+Non-Tor    110442
+NonVPN      23863
+VPN         22919
+Tor          1392
+Name: count, dtype: int64
